@@ -21,8 +21,8 @@
 ## Estrutura
 
 - `index.html` - HTML principal
-- `css/stilo01.css` - Estilos
-- `js/script.js` - Funcionalidades JS
+- `Pasta -css/` - Estilos
+- `Pasta -js/` - Funcionalidades JS
 - `assets/` - Imagens e ícones
 
 ## Usabilidade
@@ -33,4 +33,4 @@
 
 ## Como usar
 
-Abra o `index.html` em um navegador moderno. Preencha os campos e clique em "Fazer Inscrição".
+Abra o `index.html` em seu navegador. Preencha os campos e clique em "Fazer Inscrição".
