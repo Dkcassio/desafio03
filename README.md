@@ -1,9 +1,9 @@
 <h1>Formulário de Inscrição - Programa Trilhas</h1>
 
-<h2>�� Sobre</h2>
+<h2> Sobre</h2>
 <p>Este projeto é um formulário HTML/CSS com funcionalidades em JavaScript para inscrição no programa trilhas.</p>
 
-## �� Tecnologias
+##  Tecnologias
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
