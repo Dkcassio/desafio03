@@ -33,4 +33,4 @@
 
 ## Como usar
 
-Abra o `index.html` em seu navegador. Preencha os campos e clique em "Fazer Inscrição".
+Abra o `index.html` em seu navegador. Faça um pré-cadastro, crie um usuario e uma senha e pronto vc sera direcionado para pagina `cadastro.html`. Preencha os campos e clique em "Fazer Inscrição".
