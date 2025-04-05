@@ -9,3 +9,28 @@
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
+
+## Funcionalidades implementadas
+
+- Validação básica de campos obrigatórios
+- Armazenamento temporário de dados no localStorage
+- Modal de confirmação de envio
+- Upload fictício de arquivos
+- Estilização responsiva com layout flexível
+
+## Estrutura
+
+- `index.html` - HTML principal
+- `css/stilo01.css` - Estilos
+- `js/script.js` - Funcionalidades JS
+- `assets/` - Imagens e ícones
+
+## Usabilidade
+
+- Feedback visual para campos obrigatórios
+- Upload visual com arraste e clique
+- Responsividade em telas maiores
+
+## Como usar
+
+Abra o `index.html` em um navegador moderno. Preencha os campos e clique em "Fazer Inscrição".
