@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var cpf = document.getElementById('cpf').value;
         if (!validaCPF(cpf)) {
             e.preventDefault();
-            alert('CPF inválido. Verifique o número digitado.');
             document.getElementById('cpf').focus();
         }
     });
