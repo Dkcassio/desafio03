@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const form = document.querySelector("form");
+    const form = document.querySelector("#formulario");
   
     form.addEventListener("submit", (e) => {
       e.preventDefault();
   
-      // Limpa erros anteriores
-      document.querySelectorAll(".erro").forEach(el => el.classList.remove("erro"));
-      document.querySelectorAll(".erro__texto").forEach(el => el.style.display = "none");
-  
+      
       let valido = true;
       const nome = document.querySelector("#nome");
       const dataNascimento = document.querySelector("#dataNascimento");
@@ -16,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const termos = document.querySelector("#termos");
   
       if (!nome.value.trim()) {
-        mostrarErro(nome);
         alert("Por favor, preencha o campo nome.");
         valido = false;
       }
@@ -26,12 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
   
       if (!validarEmail(email.value)) {
-        mostrarErro(email);
         alert("Por favor, preencha o campo email.");
         valido = false;
       }
       if(!validarCPF(cpf.value)){
-        mostrarErro(cpf);
+        alert("Por favor, preencha o campo CPF.");
         valido = false;
       }
   
@@ -48,14 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   
-    function mostrarErro(campo) {
-      campo.classList.add("erro");
-      const erroTexto = campo.nextElementSibling;
-      if (erroTexto && erroTexto.classList.contains("erro__texto")) {
-        erroTexto.style.display = "block";
-        
-      }
-    }
+    
   
     function validarEmail(email) {
       const re = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
